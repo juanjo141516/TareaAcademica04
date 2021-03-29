@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Página web</title>
+</head>
+<body class="container mw-100 ">
+    <header class="row py-3 mb-xl-2">
+        <div class="col-12 col-xl-12 ">
+            <div class="row text-center h-100 ">
+                <h1 class="col-xl-10 justify-content-center my-auto" id="titulo_header">Sistema integrado de gestión</h1>
+                <div class="d-none d-xl-block col-xl-2 my-auto">
+                    <figure class="row m-0" >
+                        <img class="col-xl-7" id="foto_usuario" src="imagenes/header/usuario.png" alt="Foto de usuario">
+                        <figcaption class="col-xl-5 mx-0 my-auto">Usuario</figcaption>
+                    </figure> 
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="row d-flex flex-row-reverse mb-xl-2">
+        <nav class="d-none d-xl-block col-xl-5">
+            <div class="row my-3">
+                <label class="col-xl-4 my-auto" id="label_buscar" for="Buscar">Buscar en la web :</label>
+                <div class="col-xl-6 my-auto">
+                    <input class=" form-control w-100 p-0 " id="input_buscar" type="search"> 
+                </div>
+                <div class="col-xl-2 p-0 ">
+                    <button class="row m-0 btn btn-outline-success  " id="boton_buscar">          
+                            <figure class="col-xl-12 p-0 m-0" >
+                                <img  id="logo_buscador" src="imagenes/nav/lens.png" alt="Lupa">
+                                <figcaption>Buscar</figcaption>
+                            </figure>
+                    </button>    
+                </div>
+
+            </div>
+        </nav>
+        <main class="col-12 col-xl-7">
+            <div class="row h-100">   
+                <ul class="col-12 col-xl-12 m-0">
+                    <li class="d-xl-none" id="primer_li">
+                        <img id="imagen_burger" src="imagenes/main/home.png" alt="">
+                        <div class="submenu">
+                            <ul id="ul_submenu">
+                                <li class="li_submenu" id="li_submenu_user">
+                                    <figure id="figure_user">
+                                        <img src="imagenes/main/user.png" alt="">
+                                        <figcaption class="texto_menu">
+                                            <a href="">User</a>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="li_submenu">
+                                    <figure>
+                                        <img class="logos_menu" src="imagenes/main/home.png" alt="">
+                                        <figcaption class="texto_menu">
+                                            <a href="">Inicio</a>
+                                        </figcaption>
+                                        <img class="imagen_next" src="imagenes/main/next.png" alt="">
+                                    </figure>
+                                </li>
+                                <li class="li_submenu">
+                                    <figure>
+                                        <img class="logos_menu" src="imagenes/main/users.png" alt="">
+                                        <figcaption class="texto_menu">
+                                            <a href="">Usuarios</a>
+                                        </figcaption>
+                                        <img class="imagen_next" src="imagenes/main/next.png" alt="">
+                                    </figure>
+                                </li>
+                                <li class="li_submenu">
+                                    <figure>
+                                        <img class="logos_menu" src="imagenes/main/customers.png" alt="">
+                                        <figcaption class="texto_menu">
+                                            <a href="">Clientes</a>
+                                        </figcaption>
+                                        <img class="imagen_next" src="imagenes/main/next.png" alt="">
+                                    </figure>
+                                </li>
+                                <li class="li_submenu">
+                                    <figure>
+                                        <img class="logos_menu" src="imagenes/main/vendors.png" alt="">
+                                        <figcaption class="texto_menu">
+                                            <a href="">Proveedores</a>
+                                        </figcaption>
+                                        <img class="imagen_next" src="imagenes/main/next.png" alt="">
+                                    </figure>
+                                </li>
+                                <li class="li_submenu">
+                                    <figure>
+                                        <img class="logos_menu" src="imagenes/main/products.png" alt="">
+                                        <figcaption class="texto_menu">
+                                            <a href="">Productos</a>
+                                        </figcaption>
+                                        <img class="imagen_next" src="imagenes/main/next.png" alt="">
+                                    </figure>
+                                </li>
+                                <li class="li_submenu">
+                                    <figure>
+                                        <img class="logos_menu" src="imagenes/main/sign_off.png" alt="">
+                                        <figcaption class="texto_menu">
+                                            <a href="">Cerrar sesion</a>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <div class="row h-100">
+                        <li class="col-xl-2 my-auto mx-auto " id="li_inicio" class="li_menu">
+                            <figure class="row my-0">
+                                <div class="col-xl-12">
+                                    <img class="mx-4"src="imagenes/main/home.png" alt="icono inicio">
+                                </div>
+                                <div class="col-xl-12">
+                                    <figcaption class="text-center">
+                                        <a href="">Inicio</a>
+                                    </figcaption> 
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="col-xl-2 my-auto mx-auto " id="li_usuarios" class="li_menu">
+                            <figure class="row my-0">
+                                <div class="col-xl-12">
+                                    <img class="mx-4" src="imagenes/main/users.png" alt="icono usuarios">
+                                </div>
+                                <div class="col-xl-12">
+                                    <figcaption class="text-center">
+                                        <a href="">Usuarios</a>
+                                    </figcaption> 
+                                </div>     
+                            </figure>
+                        </li>
+                        <li class="col-xl-2 my-auto mx-auto " id="li_clientes" class="li_menu">
+                            <figure figure class="row my-0">
+                                <div class="col-xl-12 ">
+                                    <img class="mx-4" src="imagenes/main/customers.png" alt="icono clientes">
+                                </div>
+                                <div class="col-xl-12 ">
+                                    <figcaption class="text-center">
+                                        <a href="">Clientes</a>
+                                    </figcaption>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="col-xl-2 my-auto mx-auto" id="li_proveedores" class="li_menu">
+                            <figure figure class="row my-0">
+                                <div class="col-xl-12">
+                                    <img class="mx-4" src="imagenes/main/vendors.png" alt="icono proveedores">
+                                </div>
+                                <div class="col-xl-12">
+                                    <figcaption class="text-center" >
+                                        <a href="">Proveedores</a>
+                                    </figcaption>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="col-xl-2 my-auto mx-auto " id="li_productos" class="li_menu">
+                            <figure figure class="row my-0">
+                                <div class="col-xl-12">
+                                    <img class="mx-4" src="imagenes/main/products.png" alt="icono productos">
+                                </div>
+                                <div class="col-xl-12">
+                                    <figcaption class="text-center">
+                                        <a href="">Productos</a>
+                                    </figcaption>
+                                </div>
+                            </figure>
+                        </li>
+                    </div>
+                </ul>
+            </div> 
+        </main>
+    </div>
+    <aside class="row mb-2" >
+        <fieldset class="col-xl-12 my-4 d-flex justify-content-center">
+                <div class="row" id="contenedor">
+                    <legend class="col-xl-12 my-3 text-xl-center">Agregar productos</legend>
+                    <div class="col-xl-12">
+                        <form action="venta" method="POST">
+                            <div class="row form-inline my-3">
+                                <label class=" col-xl-4 d-flex justify-content-end" for="codigo">Código* :</label>
+                                <div class="col-xl-4">
+                                    <input class="form-control py-0" id="input_codigo" type="tel" pattern="[0-9]{6}" title="Debe ingresar solo 6 números" required>
+                                </div>
+                                <div class="col-xl-4">
+                                    <button class="py-0 btn btn-dark" id="boton_validacion">Validar</button> 
+                                </div>    
+                            </div>
+                            <div class="row form-inline my-3">
+                                <label class="col-xl-4 d-flex justify-content-end" for="nombre">Nombre* :</label>
+                                <div class="col-xl-8 ">
+                                    <input class="form-control w-75 py-0" id="input_nombre" type="text" type="tel" placeholder="Solo letras y números" pattern="[a-zA-Z0-9\s\´\-]{2,100}" title="Solo letras" required>
+                                </div>
+                            </div>
+                            <div class="row form-inline my-3 ">
+                                <label class="col-xl-4 d-flex justify-content-end" for="abreviatura">Abreviatura :</label>
+                                <div class="col-xl-8">
+                                    <input class="form-control w-25 py-0" id="input_abreviatura" type="text" placeholder="Solo letras" pattern="[a-zA-Z\s\.]{2,10}" title="Solo letras">
+                                </div>
+                            </div>
+                            <div class="row form-inline my-3">
+                                <label class="col-xl-4 d-flex justify-content-end" for="list_categorias">Categorias* :</label>
+                                <div class="col-xl-8">
+                                    <input class="form-control  py-0" list="list_categorias" id="input_categorias" required>
+                                    <datalist id="list_categorias"> 
+                                        <option value="Panes especiales"></option>
+                                        <option value="Lácteos"></option>
+                                        <option value="Pasteles"></option>
+                                        <option value="Lista cerrada de elementos "></option>
+                                    </datalist>
+                                </div>
+                            </div>
+                            <div class="row form-inline my-3">
+                                <label class="col-xl-4 d-flex justify-content-end" for="ruc">RUC Proveedor* :</label>
+                                <div class="col-xl-8">
+                                    <input class="form-control w-50 py-0" id="input_RUC" type="tel" maxlength="11"pattern="[0-9]{11}" placeholder="Solo números" title="Solo números" required>
+                                </div>
+                            </div> 
+                            <div class="row form-inline my-3">
+                                <label class="col-xl-4 d-flex justify-content-end" for="precio">Precio* :</label>
+                                <div class="col-xl-8">
+                                    <input class="form-control w-50 py-0" id="input_precio" type="number" min="0" step="0.01" max="10000000" pattern="[0-9]" required>
+                                </div>
+                            </div>
+                            <div class="row form-inline my-3">
+                                <label class="col-xl-4 form-label d-flex justify-content-end" id="label_color" for="color">Color etiqueta :</label>
+                                <div class="col-xl-8">
+                                    <input class="form-control form-control-color py-0" id="input_color" type="color">
+                                </div>
+                            </div>
+                            <div class="row form-inline my-3" id="div_fecha">
+                                <label class="col-xl-4 d-flex justify-content-end" id="label_fecha" for="fecha">Fecha* :</label>
+                                <div class="col-xl-4">
+                                    <input class="form-control w-100 py-0" id="input_fecha" type="date" required>
+                                </div>
+                                <div class="col-xl-4">
+                                    <img id="logo_fecha" src="imagenes/aside/date.png" alt="logo de la fecha">
+                                </div>
+
+                            </div>
+                            <div class="row form-inline my-3" id="div_estado">
+                                <label class="col-xl-4 d-flex justify-content-end" id="label_estado" for="estado">Estado* :</label>
+                                <div class="col-xl-2"  id="div_radio_activo">
+                                    <div class="row">
+                                        <div class="col-xl-1">
+                                            <input class="form-check-input" type="radio" name="Estado">
+                                        </div>
+                                        <label class="col-xl-8 form-check-label" for="activo">Activo</label>
+                                    </div>    
+                                </div>
+                                <div class="col-xl-3" id="div_radio_suspendido">
+                                    <div class="row">
+                                        <div class="col-xl-1">
+                                            <input class="form-check-input" type="radio" name="Estado">
+                                        </div>
+                                        <label class="col-xl-9" for="Suspendido">Suspendido</label>
+                                    </div>   
+                                </div>
+                                <div class="col-xl-3"  id="div_radio_de_baja">
+                                    <div class="row">
+                                        <div class="col-xl-1">
+                                            <input class="form-check-input" type="radio" name="Estado">
+                                        </div>
+                                        <label class="col-xl-6" for="De baja">De baja</label>
+                                    </div>   
+                                    
+                                 </div>
+                            </div>
+                            <div class="row form-inline my-3" id="div_impuesto">
+                                <label class="col-xl-4 d-flex justify-content-end" id="label_impuesto" for="afecto_impuesto">Afecto a impuesto* :</label>    
+                                <div class="col-xl-8">
+                                    <input class=" form-control" type="checkbox" id="checkbox_impuesto">
+                                </div>
+                            </div>
+                            <div class="row form-inline my-3" id="div_foto"> 
+                                <label class="col-xl-4 d-flex justify-content-end" id="label_foto" for="Seleccione_foto">Foto*</label>
+                                <div class="col-xl-6">
+                                    <input class="form-control-file" id="tamaño_input_foto" type="file" name="foto" size="5mb" accept="image/png, image/jpg">
+                                </div>
+                                <div class="col-xl-2">
+                                    <img id="logo_de_galeria" src="imagenes/aside/photo.png" alt="Logo galeria">
+                                </div>
+                            </div>
+                            <div class="row form-inline h-100 my-3" id="div_descripcion">
+                                <label class="col-xl-4 d-flex justify-content-end" id="label_descripcion" for="descripcion">Descripcion* :</label>
+                                <div  class="col-xl-8 h-50" >
+                                    <textarea class=" w-75 h-50 form-control py-0" id="tamanio_descripcion"></textarea>
+                                </div>
+                            </div>
+                            <div class="row form-inline my-3" id="div_botones">
+                                <div class="col-xl-8 d-flex justify-content-center">
+                                    <button  class="btn btn-primary" type="reset" id="boton_limpiar">
+                                        <figure class="m-0">
+                                            <img class="d-xl-none" id="imagen_boton_limpiar" src="imagenes/aside/brush.png" alt="pincel">
+                                            <figcaption>Limpiar</figcaption>
+                                        </figure>
+                                    </button>
+                                </div>
+                                <div class="col-xl-4">
+                                    <button class="btn btn-secondary" type="submit" id="boton_guardar">
+                                        <figure class="m-0">
+                                            <img class="d-none"id="imagen_boton_guardar" src="imagenes/aside/diskette.png" alt="guardado">
+                                            <figcaption>Guardar</figcaption>
+                                        </figure>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </fieldset>
+    </aside>
+    <footer class="row"> 
+        <div class=" col-xl-4 text-xl-center my-4">
+            <a class="col-xl-4 text-xl-center" id="que_hacemos" href="https://www.youtube.com/" target="_BLANK">¿Qué hacemos?</a>
+        </div>
+        <div class="col-xl-4 text-xl-center my-4">
+            <a class="col-xl-4 text-xl-center" id="enlaces_principales" href="https://www.google.com/" target="_BLANK">Enlaces principales</a>
+        </div>
+        <div class="col-xl-4 text-xl-center my-4">
+            <a class="col-xl-4 text-xl-center" id="contactanos" href="https://zoom.idat.edu.pe/" target="_BLANCK">Contáctanos</a>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>  
+</body>
+</html>

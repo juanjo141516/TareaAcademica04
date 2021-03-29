@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: blue;
+}
+header #titulo_header{
+    color: white;
+    padding-left: 270px;
+}
+header figure #foto_usuario{
+    height:50px;
+    opacity: 60%;
+}
+nav{
+    background-color: #9BAFEB;
+}
+nav img{
+    height: 25px;
+    width: 25px;
+}
+main{
+    background-color: gainsboro;
+}
+main img{
+    height: 40px;
+    width: 40px;
+}
+main div ul{
+    list-style: none;
+}
+aside{
+    background-color: lightblue;
+    font-size: 15px;
+}
+aside fieldset #contenedor{
+    border: 2px solid black;
+}
+aside .form-control{
+    height: 25px;
+    font-size: 15px;
+}
+aside #boton_validacion{
+    height: 25px;
+    font-size: 15px;
+}
+aside .form-control::placeholder{
+    font-size: 15px;
+}
+aside #input_color{
+    width: 10%;
+}
+aside img{
+    height: 20px ;
+    width: 20px;
+}
+aside #tamaño_descripcion{
+    resize: none;
+}
+footer{
+    background-color: #F0E690;
+}
